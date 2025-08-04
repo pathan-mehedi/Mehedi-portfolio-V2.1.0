@@ -143,7 +143,7 @@ export function PricingPlans() {
                 className="group relative"
               >
                 <Card
-                  className={`h-full overflow-visible shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 relative ${plan.popular ? "ring-2 ring-purple-500 dark:ring-purple-400 scale-105" : ""}`}
+                  className={`h-full overflow-visible md:overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 relative ${plan.popular ? "ring-2 ring-purple-500 dark:ring-purple-400 scale-105" : ""}`}
                 >
                   {plan.popular && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">

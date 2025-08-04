@@ -70,7 +70,7 @@ export function Experience() {
   ]
 
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section className="py-20 bg-gray-50 dark:bg-gray-800 overflow-hidden md:overflow-visible">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

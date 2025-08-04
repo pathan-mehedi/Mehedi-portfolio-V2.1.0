@@ -31,16 +31,16 @@ export default function Home() {
     <>
       <HeaderUnified />
       
-      <main className="min-h-screen" role="main">
-        <section id="home" aria-label="Hero">
+      <main className="min-h-screen max-w-[2000px] mx-auto w-full" role="main">
+        <section id="home" aria-label="Hero" className="w-full">
           <HeroSection />
         </section>
 
-        <section id="services" aria-label="Services">
+        <section id="services" aria-label="Services" className="w-full">
           <ServicesSection />
         </section>
 
-        <section id="about" aria-label="About">
+        <section id="about" aria-label="About" className="w-full">
           <TechStack techStack={techStackData} />
         </section>
         

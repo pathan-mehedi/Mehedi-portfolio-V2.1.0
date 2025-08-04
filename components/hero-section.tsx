@@ -79,7 +79,7 @@ export function HeroSection() {
           >
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-emerald-100 to-purple-100 dark:from-emerald-900/30 dark:to-purple-900/30 px-4 py-2 rounded-full mb-6">
               <CodeXml className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
-              <span className="text-emerald-700 dark:text-emerald-300 font-semibold">Crafting Web Experiences for 7+ Years</span>
+              <span className="text-emerald-700 dark:text-emerald-300 font-semibold text-sm md:text-base">Crafting Web Experiences for 7+ Years</span>
             </div>
           </motion.div>
 
@@ -89,7 +89,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl sm:text-6xl lg:text-7xl font-inter font-black tracking-tight"
+              className="text-3xl sm:text-6xl lg:text-7xl font-inter font-black tracking-tight"
             >
               <span className="block text-slate-900 dark:text-white">
                 Hi, I'm{" "}
@@ -97,7 +97,7 @@ export function HeroSection() {
                   Mehedi
                 </span>
               </span>
-              <span className="block text-slate-700 dark:text-slate-300 text-3xl sm:text-5xl lg:text-6xl mt-2">
+              <span className="block text-slate-700 dark:text-slate-300 text-2xl sm:text-5xl lg:text-6xl mt-2">
                 Full Stack Developer
               </span>
             </motion.h1>
@@ -106,7 +106,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl sm:text-2xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed font-poppins"
+              className="text-base sm:text-2xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed font-poppins"
             >
               Passionate about creating exceptional digital experiences with{" "}
               <span className="text-emerald-600 dark:text-emerald-400 font-semibold">React, Next.js</span> and modern
@@ -123,7 +123,7 @@ export function HeroSection() {
           >
             <Button
               size="lg"
-              className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white px-8 py-6 text-base md:text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               onClick={() => {
                 const contactSection = document.getElementById("contact")
                 if (contactSection) {
@@ -138,7 +138,7 @@ export function HeroSection() {
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent"
+              className="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white px-8 py-6 text-base md:text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 bg-transparent"
               onClick={downloadCV}
             >
               <Download className="mr-2 h-5 w-5" />

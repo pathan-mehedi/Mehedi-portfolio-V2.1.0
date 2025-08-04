@@ -150,7 +150,7 @@ export function ServicesSection() {
   return (
     <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 relative overflow-visible">
       {/* Background Elements */}
-      <div className="absolute inset-0 overflow-visible">
+      <div className="absolute inset-0 overflow-visible md:overflow-hidden">
         <div className="absolute top-20 left-10 w-32 h-32 bg-emerald-400/5 dark:bg-emerald-400/10 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-purple-400/5 dark:bg-purple-400/10 rounded-full blur-3xl" />
       </div>
@@ -201,7 +201,7 @@ export function ServicesSection() {
                 className="group relative"
               >
                 <Card
-                  className={`h-full overflow-visible shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 relative ${service.popular ? "ring-2 ring-purple-500 dark:ring-purple-400" : ""}`}
+                  className={`h-full overflow-visible md:overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 relative ${service.popular ? "ring-2 ring-purple-500 dark:ring-purple-400" : ""}`}
                 >
                   {service.popular && (
                     <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
