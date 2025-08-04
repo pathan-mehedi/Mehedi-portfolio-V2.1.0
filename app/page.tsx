@@ -3,7 +3,7 @@
 import { HeaderUnified } from "@/components/header-unified"
 import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
-import { TechStack } from "@/components/tech-stack"
+// import { TechStack as ImportedTechStack } from "@/components/tech-stack"
 import { Experience } from "@/components/experience"
 import { ProjectsPreview } from "@/components/projects-preview"
 import { ChallengesSolutions } from "@/components/challenges-solutions"
@@ -28,45 +28,75 @@ export default function Home() {
   ]
 
   return (
-    <main className="min-h-screen">
+    <>
       <HeaderUnified />
+      
+      <main className="min-h-screen" role="main">
+        <section id="home" aria-label="Hero">
+          <HeroSection />
+        </section>
+
+        <section id="services" aria-label="Services">
+          <ServicesSection />
+        </section>
+
+        <section id="about" aria-label="About">
+          <TechStack techStack={techStackData} />
+        </section>
+        
+        <section id="experience" aria-label="Experience">
+          <Experience />
+        </section>
+
+        <section id="projects" aria-label="Projects">
+          <ProjectsPreview />
+        </section>
+
+        <section id="challenges" aria-label="Challenges">
+          <ChallengesSolutions />
+        </section>
+
+        <section id="testimonials" aria-label="Testimonials">
+          <TestimonialsSection />
+        </section>
+
+        <section id="contact" aria-label="Contact">
+          <ContactForm />
+        </section>
+      </main>
+
+      <Footer />
+      
+      {/* Utility Components */}
       <WhatsAppButton />
       <BackToTop />
       <ScrollIndicator />
+    </>
+  )
+}
 
-      <div id="home">
-        <HeroSection />
-      </div>
+type TechStackItem = {
+  name: string
+  color: string
+  icon: string
+}
 
-      <div id="services">
-        <ServicesSection />
-      </div>
+type TechStackProps = {
+  techStack: TechStackItem[]
+}
 
-      <div id="about">
-        <TechStack techStack={techStackData} />
-      </div>
-
-      <div id="experience">
-        <Experience />
-      </div>
-
-      <div id="projects">
-        <ProjectsPreview />
-      </div>
-
-      <div id="challenges">
-        <ChallengesSolutions />
-      </div>
-
-      <div id="testimonials">
-        <TestimonialsSection />
-      </div>
-
-      <div id="contact">
-        <ContactForm />
-      </div>
-
-      <Footer />
-    </main>
+export function TechStack({ techStack }: TechStackProps) {
+  return (
+    <div className="flex flex-wrap gap-4 justify-center py-8">
+      {techStack.map((item) => (
+        <div
+          key={item.name}
+          className={`flex items-center gap-2 px-4 py-2 rounded shadow ${item.color} text-white`}
+        >
+          <span>{item.icon}</span>
+          <span>{item.name}</span>
+        </div>
+      ))}
+    </div>
   )
 }
