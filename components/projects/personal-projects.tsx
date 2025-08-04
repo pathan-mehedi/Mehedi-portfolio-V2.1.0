@@ -20,7 +20,7 @@ export function PersonalProjects() {
       features: ["Code Snippets", "API Testing", "Color Tools", "Productivity"],
       status: "In Development",
       github: "https://github.com/pathan-mehedi/devtools-dashboard",
-      demo: "https://devtools.mehedipathan.dev",
+      demo: "https://devtools.mehedipathan.online",
       icon: <Code className="w-6 h-6" />,
     },
     {
@@ -32,7 +32,7 @@ export function PersonalProjects() {
       features: ["AI Categorization", "Budget Planning", "Analytics", "Multi-Currency"],
       status: "Live",
       github: "https://github.com/pathan-mehedi/expense-tracker",
-      demo: "https://expense-tracker.mehedipathan.dev",
+      demo: "https://expense-tracker.mehedipathan.online",
       icon: <Zap className="w-6 h-6" />,
     },
     {
@@ -44,7 +44,7 @@ export function PersonalProjects() {
       features: ["Theme Customization", "Auto Deployment", "GitHub Integration", "SEO Optimized"],
       status: "Live",
       github: "https://github.com/pathan-mehedi/portfolio-generator",
-      demo: "https://portfolio-gen.mehedipathan.dev",
+      demo: "https://portfolio-gen.mehedipathan.online",
       icon: <Lightbulb className="w-6 h-6" />,
     },
     {
@@ -56,7 +56,7 @@ export function PersonalProjects() {
       features: ["Team Collaboration", "Time Tracking", "Analytics", "Notifications"],
       status: "Live",
       github: "https://github.com/pathan-mehedi/task-suite",
-      demo: "https://tasks.mehedipathan.dev",
+      demo: "https://tasks.mehedipathan.online",
       icon: <Code className="w-6 h-6" />,
     },
   ]

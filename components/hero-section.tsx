@@ -177,7 +177,7 @@ export function HeroSection() {
               </svg>
             </a>
             <a
-              href="mailto:eity.mehedipathan@gmail.com"
+              href="mailto:mehedipathantext@gmail.com"
               className="p-3 rounded-full bg-white dark:bg-slate-800 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 text-slate-600 hover:text-emerald-600 dark:text-slate-400 dark:hover:text-emerald-400"
             >
               <Mail className="h-6 w-6" />

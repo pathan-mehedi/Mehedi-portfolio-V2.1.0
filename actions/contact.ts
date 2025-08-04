@@ -35,7 +35,7 @@ export async function submitContact(prevState: ContactState, formData: FormData)
     // Send email using Resend
     const { data, error } = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>", // Using Resend's sandbox domain
-      to: ["eity.mehedipathan@gmail.com"], // Replace with your Gmail address
+      to: ["mehedipathantext@gmail.com"], // Replace with your Gmail address
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

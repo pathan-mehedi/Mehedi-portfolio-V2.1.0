@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mehedipathan.dev",
+    url: "https://mehedipathan.online",
     title: "Mehedi Pathan - Full Stack Developer",
     description: "Professional web developer specializing in React, Next.js, and modern web technologies.",
     siteName: "Mehedi Pathan Portfolio",

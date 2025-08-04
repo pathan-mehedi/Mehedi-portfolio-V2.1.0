@@ -1,5 +1,6 @@
 "use client"
-import { useFormState, useFormStatus } from "react-dom"
+import { useActionState } from "react"
+import { useFormStatus } from "react-dom"
 import { motion } from "framer-motion"
 import { Send, Mail, Phone, MapPin, AlertCircle } from "lucide-react"
 
@@ -34,7 +35,7 @@ function SubmitButton() {
 }
 
 export function ContactForm() {
-  const [state, formAction] = useFormState(submitContact, {
+  const [state, formAction] = useActionState(submitContact, {
     success: false,
     message: ""
   })

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Projects - Mehedi Pathan | Web Developer & Future Technology Leader",
     description: "Explore my portfolio of web development projects and leadership journey toward CTO/COO roles.",
-    url: "https://mehedipathan.dev/projects",
+    url: "https://mehedipathan.online/projects",
   },
 }
 

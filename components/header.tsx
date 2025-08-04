@@ -106,7 +106,7 @@ export function Header() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:eity.mehedipathan@gmail.com"
+                href="mailto:mehedipathantext@gmail.com"
                 className="p-2 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
               >
                 <Mail className="h-5 w-5" />
