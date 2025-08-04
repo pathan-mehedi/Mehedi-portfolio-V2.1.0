@@ -3,7 +3,7 @@
 import { HeaderUnified } from "@/components/header-unified"
 import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
-// import { TechStack as ImportedTechStack } from "@/components/tech-stack"
+import { TechStack } from "@/components/tech-stack"
 import { Experience } from "@/components/experience"
 import { ProjectsPreview } from "@/components/projects-preview"
 import { ChallengesSolutions } from "@/components/challenges-solutions"
@@ -72,31 +72,5 @@ export default function Home() {
       <BackToTop />
       <ScrollIndicator />
     </>
-  )
-}
-
-type TechStackItem = {
-  name: string
-  color: string
-  icon: string
-}
-
-type TechStackProps = {
-  techStack: TechStackItem[]
-}
-
-export function TechStack({ techStack }: TechStackProps) {
-  return (
-    <div className="flex flex-wrap gap-4 justify-center py-8">
-      {techStack.map((item) => (
-        <div
-          key={item.name}
-          className={`flex items-center gap-2 px-4 py-2 rounded shadow ${item.color} text-white`}
-        >
-          <span>{item.icon}</span>
-          <span>{item.name}</span>
-        </div>
-      ))}
-    </div>
   )
 }
