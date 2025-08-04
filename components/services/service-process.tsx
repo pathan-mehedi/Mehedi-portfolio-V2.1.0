@@ -167,7 +167,7 @@ export function ServiceProcess() {
                 >
                   {/* Content Card */}
                   <div className="flex-1 w-full">
-                    <Card className="overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 group">
+                    <Card className="overflow-visible shadow-lg hover:shadow-2xl transition-all duration-500 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border-0 group">
                       {/* Gradient Border Effect */}
                       <div
                         className={`absolute inset-0 bg-gradient-to-r ${colorClasses.bg} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl`}
