@@ -198,6 +198,7 @@ export function HeaderUnified() {
                 variant="ghost"
                 size="sm"
                 onClick={toggleTheme}
+                aria-label="Toggle theme"
                 className="w-9 h-9 p-0 relative overflow-hidden hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 text-gray-600 dark:text-gray-300"
               >
                 <motion.div
@@ -217,6 +218,8 @@ export function HeaderUnified() {
               variant="ghost"
               size="sm"
               onClick={() => setIsOpen(!isOpen)}
+              aria-label={isOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isOpen}
               className="w-9 h-9 p-0 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-all duration-200 text-gray-600 dark:text-gray-300"
             >
               <motion.div animate={{ rotate: isOpen ? 180 : 0 }} transition={{ duration: 0.3 }}>

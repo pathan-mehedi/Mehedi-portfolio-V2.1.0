@@ -165,6 +165,7 @@ export function TestimonialsSection() {
               variant="outline"
               size="sm"
               onClick={prevTestimonial}
+              aria-label="Previous testimonial"
               className="w-10 h-10 rounded-full p-0 bg-white dark:bg-gray-800 hover:bg-blue-50 dark:hover:bg-blue-900"
             >
               <ChevronLeft className="w-4 h-4" />
@@ -176,6 +177,8 @@ export function TestimonialsSection() {
                 <button
                   key={index}
                   onClick={() => setCurrentIndex(index)}
+                  aria-label={`Go to testimonial ${index + 1}`}
+                  aria-current={index === currentIndex ? "true" : "false"}
                   className={`w-2 h-2 rounded-full transition-all duration-300 ${
                     index === currentIndex ? "bg-blue-600 w-8" : "bg-gray-300 dark:bg-gray-600"
                   }`}
@@ -187,6 +190,7 @@ export function TestimonialsSection() {
               variant="outline"
               size="sm"
               onClick={nextTestimonial}
+              aria-label="Next testimonial"
               className="w-10 h-10 rounded-full p-0 bg-white dark:bg-gray-800 hover:bg-blue-50 dark:hover:bg-blue-900"
             >
               <ChevronRight className="w-4 h-4" />
