@@ -13,7 +13,7 @@ export function WhatsAppButton() {
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber.replace(/\+/g, "")}?text=${encodeURIComponent(message)}`
-    window.open(url, "_blank")
+    window.open(url, "_blank", "noopener noreferrer")
     setIsOpen(false)
   }
 
@@ -29,8 +29,16 @@ export function WhatsAppButton() {
         <Button
           onClick={() => setIsOpen(!isOpen)}
           className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
+          aria-label={isOpen ? "Close WhatsApp chat" : "Open WhatsApp chat"}
+          aria-expanded={isOpen}
+          aria-haspopup="dialog"
         >
-          <motion.div animate={{ rotate: isOpen ? 45 : 0 }} transition={{ duration: 0.3 }} className="relative z-10">
+          <motion.div
+            animate={{ rotate: isOpen ? 45 : 0 }}
+            transition={{ duration: 0.3 }}
+            className="relative z-10"
+            aria-hidden="true"
+          >
             {isOpen ? <X className="w-6 h-6" /> : <MessageCircle className="w-6 h-6" />}
           </motion.div>
 
@@ -46,12 +54,14 @@ export function WhatsAppButton() {
               repeat: Number.POSITIVE_INFINITY,
               ease: "easeInOut",
             }}
+            aria-hidden="true"
           />
 
           {/* Hover Effect */}
           <motion.div
             className="absolute inset-0 bg-white/20 rounded-full opacity-0 group-hover:opacity-100"
             transition={{ duration: 0.3 }}
+            aria-hidden="true"
           />
         </Button>
       </motion.div>
@@ -60,6 +70,9 @@ export function WhatsAppButton() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            role="dialog"
+            aria-label="WhatsApp Chat Dialog"
+            aria-modal="true"
             initial={{ opacity: 0, scale: 0.8, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
@@ -106,9 +119,10 @@ export function WhatsAppButton() {
                   <Button
                     onClick={handleWhatsAppClick}
                     className="w-full bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white font-semibold py-3"
+                    aria-label="Start WhatsApp Chat"
                   >
-                    <MessageCircle className="w-4 h-4 mr-2" />
-                    Start WhatsApp Chat
+                    <MessageCircle className="w-4 h-4 mr-2" aria-hidden="true" />
+                    <span>Start WhatsApp Chat</span>
                   </Button>
                 </div>
               </CardContent>
@@ -121,6 +135,7 @@ export function WhatsAppButton() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            role="presentation"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

@@ -93,26 +93,23 @@ export function Header() {
                 href="https://github.com/pathan-mehedi"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit my GitHub profile"
                 className="p-2 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
               >
-                <Github className="h-5 w-5" aria-hidden="true" />
+                <Github className="h-5 w-5" />
               </a>
               <a
                 href="https://www.linkedin.com/in/mehedi-pathan"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit my LinkedIn profile"
                 className="p-2 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
               >
-                <Linkedin className="h-5 w-5" aria-hidden="true" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a
                 href="mailto:mehedipathantext@gmail.com"
-                aria-label="Send me an email"
                 className="p-2 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
               >
-                <Mail className="h-5 w-5" aria-hidden="true" />
+                <Mail className="h-5 w-5" />
               </a>
             </div>
 
@@ -204,26 +201,23 @@ export function Header() {
                     href="https://github.com/pathan-mehedi"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Visit my GitHub profile"
                     className="p-3 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
                   >
-                    <Github className="h-6 w-6" aria-hidden="true" />
+                    <Github className="h-6 w-6" />
                   </a>
                   <a
                     href="https://linkedin.com/in/mehedi-pathan"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Visit my LinkedIn profile"
                     className="p-3 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
                   >
-                    <Linkedin className="h-6 w-6" aria-hidden="true" />
+                    <Linkedin className="h-6 w-6" />
                   </a>
                   <a
-                    href="mailto:mehedipathantext@gmail.com"
-                    aria-label="Send me an email"
+                    href="mailto:m"
                     className="p-3 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
                   >
-                    <Mail className="h-6 w-6" aria-hidden="true" />
+                    <Mail className="h-6 w-6" />
                   </a>
                 </div>
 
