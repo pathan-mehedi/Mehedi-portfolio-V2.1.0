@@ -130,7 +130,7 @@ export function ServicePackages() {
       description: "Strategic technology guidance and architecture planning for your business growth and scalability.",
       icon: <Shield className="w-8 h-8" />,
       color: "indigo",
-      startingPrice: "$150/hr",
+      startingPrice: "$35/hr",
       deliveryTime: "Flexible",
       technologies: ["Architecture", "DevOps", "Cloud", "Security", "Performance"],
       features: [

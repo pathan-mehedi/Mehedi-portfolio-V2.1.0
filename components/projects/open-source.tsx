@@ -20,7 +20,7 @@ export function OpenSourceProjects() {
       watchers: 23,
       topics: ["nextjs", "typescript", "tailwindcss", "starter-template"],
       lastUpdated: "2024-01-15",
-      url: "https://github.com/pathan-mehedi/nextjs-starter",
+      url: "https://github.com/mehedi-pathan/nextjs-starter",
     },
     {
       title: "React Component Library",
@@ -32,7 +32,7 @@ export function OpenSourceProjects() {
       watchers: 18,
       topics: ["react", "components", "typescript", "storybook"],
       lastUpdated: "2024-01-10",
-      url: "https://github.com/pathan-mehedi/react-ui-lib",
+      url: "https://github.com/mehedi-pathan/react-ui-lib",
     },
     {
       title: "WordPress Theme Framework",
@@ -44,7 +44,7 @@ export function OpenSourceProjects() {
       watchers: 12,
       topics: ["wordpress", "theme", "gutenberg", "php"],
       lastUpdated: "2023-12-20",
-      url: "https://github.com/pathan-mehedi/wp-theme-framework",
+      url: "https://github.com/mehedi-pathan/wp-theme-framework",
     },
     {
       title: "API Rate Limiter",
@@ -55,7 +55,7 @@ export function OpenSourceProjects() {
       watchers: 8,
       topics: ["nodejs", "rate-limiting", "middleware", "redis"],
       lastUpdated: "2023-11-30",
-      url: "https://github.com/pathan-mehedi/api-rate-limiter",
+      url: "https://github.com/mehedi-pathan/api-rate-limiter",
     },
     {
       title: "Database Migration Tool",
@@ -67,7 +67,7 @@ export function OpenSourceProjects() {
       watchers: 15,
       topics: ["database", "migration", "mysql", "postgresql", "mongodb"],
       lastUpdated: "2023-10-15",
-      url: "https://github.com/pathan-mehedi/db-migration-tool",
+      url: "https://github.com/mehedi-pathan/db-migration-tool",
     },
     {
       title: "React Native Utils",
@@ -78,7 +78,7 @@ export function OpenSourceProjects() {
       watchers: 6,
       topics: ["react-native", "utils", "hooks", "typescript"],
       lastUpdated: "2023-09-25",
-      url: "https://github.com/pathan-mehedi/rn-utils",
+      url: "https://github.com/mehedi-pathan/rn-utils",
     },
   ]
 
@@ -187,7 +187,7 @@ export function OpenSourceProjects() {
           className="text-center mt-12"
         >
           <Button size="lg" asChild className="bg-gray-900 hover:bg-gray-800 text-white">
-            <Link href="https://github.com/pathan-mehedi" target="_blank">
+            <Link href="https://github.com/mehedi-pathan" target="_blank">
               <Github className="w-5 h-5 mr-2" />
               View All Repositories
             </Link>

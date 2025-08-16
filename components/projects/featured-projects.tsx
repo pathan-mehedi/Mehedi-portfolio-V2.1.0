@@ -24,7 +24,7 @@ export function FeaturedProjects() {
       },
       links: {
         live: "https://lms.moonjutech.com",
-        github: "https://github.com/pathan-mehedi/enterprise-lms",
+        github: "https://github.com/mehedi-pathan/enterprise-lms",
       },
       status: "Live",
       year: "2024",
@@ -42,7 +42,7 @@ export function FeaturedProjects() {
       },
       links: {
         live: "https://marketplace-demo.com",
-        github: "https://github.com/pathan-mehedi/multivendor-ecommerce",
+        github: "https://github.com/mehedi-pathan/multivendor-ecommerce",
       },
       status: "Live",
       year: "2023",
@@ -60,7 +60,7 @@ export function FeaturedProjects() {
       },
       links: {
         live: "https://realestate-crm.com",
-        github: "https://github.com/pathan-mehedi/realestate-crm",
+        github: "https://github.com/mehedi-pathan/realestate-crm",
       },
       status: "Live",
       year: "2023",

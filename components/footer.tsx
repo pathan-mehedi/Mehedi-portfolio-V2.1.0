@@ -8,7 +8,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { name: "GitHub", href: "https://github.com/pathan-mehedi", icon: Github },
+    { name: "GitHub", href: "https://github.com/mehedi-pathan", icon: Github },
     { name: "LinkedIn", href: "https://linkedin.com/in/mehedi-pathan", icon: Linkedin },
     { name: "Email", href: "mailto:mehedipathantext@gmail.com", icon: Mail },
     { name: "WhatsApp", href: "https://wa.me/8801622839616", icon: MessageCircle },

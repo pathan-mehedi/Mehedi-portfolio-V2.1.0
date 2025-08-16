@@ -90,7 +90,7 @@ export function Header() {
             {/* Social Links */}
             <div className="flex items-center space-x-2">
               <a
-                href="https://github.com/pathan-mehedi"
+                href="https://github.com/mehedi-pathan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"
@@ -198,7 +198,7 @@ export function Header() {
                 {/* Mobile Social Links */}
                 <div className="flex justify-center space-x-4 pt-4 border-t border-slate-200 dark:border-slate-700">
                   <a
-                    href="https://github.com/pathan-mehedi"
+                    href="https://github.com/mehedi-pathan"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 rounded-full text-slate-600 hover:text-emerald-600 dark:text-slate-300 dark:hover:text-emerald-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-300"

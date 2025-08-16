@@ -18,10 +18,10 @@ import { Sparkles, Code, Palette, Smartphone, Globe, Database } from "lucide-rea
 export default function ProjectsPageV2() {
   const projectCategories = [
     { name: "Featured", icon: Sparkles, count: "3", color: "emerald" },
-    { name: "Client Work", icon: Code, count: "6", color: "teal" },
+    { name: "Client Work", icon: Code, count: "46", color: "teal" },
     { name: "Open Source", icon: Globe, count: "6", color: "blue" },
     { name: "Personal", icon: Palette, count: "4", color: "purple" },
-    { name: "WordPress", icon: Database, count: "6", color: "orange" },
+    { name: "WordPress", icon: Database, count: "16", color: "orange" },
     { name: "Mobile Apps", icon: Smartphone, count: "4", color: "pink" },
   ]
 

@@ -93,7 +93,7 @@ export function ServicesSection() {
       description: "Strategic technology guidance and architecture planning for your business growth and scalability.",
       icon: <Shield className="w-8 h-8" />,
       color: "indigo",
-      startingPrice: "$150/hr",
+      startingPrice: "$35/hr",
       features: [
         "Technology Strategy Planning",
         "Architecture Review & Design",
