@@ -154,7 +154,7 @@ export function HeroSection() {
             className="flex justify-center space-x-6"
           >
             <a
-              href="https://github.com/pathan-mehedi"
+              href="https://github.com/mehedi-pathan"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visit my GitHub profile"
