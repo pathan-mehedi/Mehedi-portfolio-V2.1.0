@@ -12,25 +12,25 @@ import { Badge } from "@/components/ui/badge"
 export function ProjectsPreview() {
   const featuredProjects = [
     {
-      title: "Enterprise LMS Platform",
-      description: "Comprehensive learning management system serving 10,000+ students with real-time collaboration.",
-      image: "/placeholder.svg?height=300&width=400&text=LMS+Platform",
-      technologies: ["Next.js", "TypeScript", "MongoDB", "AWS"],
+      title: "MTS - Enterprise LMS",
+      description: "Enterprise-ready LMS built with Next.js 14, TypeScript, and Tailwind CSS. Features responsive dashboards for students, courses, and analytics with clean, extensible architecture.",
+      image: "/enterpriseLms.png?height=300&width=400&text=LMS+Platform",
+      technologies: ["Next.js", "TypeScript", "MongoDB", "React Js 18"],
       category: "Enterprise",
     },
     {
       title: "E-Commerce Multi-Vendor",
-      description: "Full-stack marketplace solution with vendor management and payment processing.",
-      image: "/placeholder.svg?height=300&width=400&text=E-Commerce+Platform",
-      technologies: ["React.js", "Node.js", "PostgreSQL", "Stripe"],
+      description: "Bangladesh’s leading digital product store offering instant delivery of PUBG UC, iTunes Gift Cards, and a wide range of premium digital items.",
+      image: "/multiVendorEcommer.png?height=300&width=400&text=E-Commerce+Platform",
+      technologies: ["React.js", "Node.js", "PostgreSQL", "Stripe", "SSLCommerz", "Framer Motion"],
       category: "E-Commerce",
     },
     {
-      title: "HealthTracker Mobile App",
-      description: "AI-powered health and fitness tracking app with 50,000+ downloads.",
-      image: "/placeholder.svg?height=300&width=400&text=HealthTracker+App",
-      technologies: ["React Native", "Firebase", "TensorFlow"],
-      category: "Mobile",
+      title: "Zenith Cleaning Co",
+      description: "Complete cleaning service management solution with online booking, service scheduling, customer management, and automated reminders.",
+      image: "/zenithCleaningCo.png?height=300&width=400&text=Zenith+Cleaning+Co",
+      technologies: ["Next.js", "TypeScript", "React Js 18", "Node.js", "Tailwind"],
+      category: "StartUp",
     },
   ]
 

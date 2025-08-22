@@ -16,17 +16,17 @@ export function TestimonialsSection() {
       name: "Sarah Johnson",
       position: "CEO, MediCare Solutions",
       company: "Healthcare Industry",
-      image: "/placeholder.svg?height=80&width=80&text=Sarah+J",
+      image: "/testimonials_img_1.png?height=80&width=80&text=Sarah+J",
       rating: 5,
       testimonial:
         "Mehedi delivered an exceptional healthcare management system that transformed our operations. His technical expertise and attention to detail are outstanding. The system improved our efficiency by 60% and our patients love the new interface.",
       project: "Healthcare Management System",
     },
     {
-      name: "David Chen",
+      name: "Anatoly Dickinson",
       position: "CTO, FinTech Innovations",
       company: "Financial Technology",
-      image: "/placeholder.svg?height=80&width=80&text=David+C",
+      image: "/testimonials_img_2.png?height=80&width=80&text=Anatoly+D",
       rating: 5,
       testimonial:
         "Working with Mehedi was a game-changer for our financial dashboard project. His deep understanding of React and data visualization created exactly what we envisioned. Professional, reliable, and delivered beyond expectations.",
@@ -36,7 +36,7 @@ export function TestimonialsSection() {
       name: "Maria Rodriguez",
       position: "Founder, FoodChain Corp",
       company: "Restaurant Industry",
-      image: "/placeholder.svg?height=80&width=80&text=Maria+R",
+      image: "/testimonials_img_3.png?height=80&width=80&text=Maria+R",
       rating: 5,
       testimonial:
         "The restaurant management system Mehedi built for us is incredible. It handles everything from inventory to staff scheduling seamlessly. His communication throughout the project was excellent, and he delivered on time and within budget.",
@@ -46,7 +46,7 @@ export function TestimonialsSection() {
       name: "Ahmed Hassan",
       position: "Director, EduTech Academy",
       company: "Education Technology",
-      image: "/placeholder.svg?height=80&width=80&text=Ahmed+H",
+      image: "/testimonials_img_4.png?height=80&width=80&text=Ahmed+H",
       rating: 5,
       testimonial:
         "Mehedi created an amazing educational platform that our students and teachers absolutely love. The video streaming, progress tracking, and course management features work flawlessly. Highly recommended for any educational project.",
@@ -56,7 +56,7 @@ export function TestimonialsSection() {
       name: "Jennifer Smith",
       position: "Operations Manager, LogiFlow Systems",
       company: "Logistics & Supply Chain",
-      image: "/placeholder.svg?height=80&width=80&text=Jennifer+S",
+      image: "/testimonials_img_5.png?height=80&width=80&text=Jennifer+S",
       rating: 5,
       testimonial:
         "The logistics management system has completely transformed our operations. Real-time tracking, route optimization, and inventory control all work perfectly. Mehedi's expertise in complex systems is truly impressive.",
@@ -66,7 +66,7 @@ export function TestimonialsSection() {
       name: "Michael Zhang",
       position: "CTO, AI Solutions Inc",
       company: "Artificial Intelligence",
-      image: "/placeholder.svg?height=80&width=80&text=Michael+Z",
+      image: "/testimonials_img_6.png?height=80&width=80&text=Michael+Z",
       rating: 5,
       testimonial:
         "Mehedi's work on our AI-powered analytics dashboard exceeded our expectations. His deep understanding of machine learning integration and real-time data processing helped create a powerful yet user-friendly platform. Outstanding work!",
@@ -76,7 +76,7 @@ export function TestimonialsSection() {
       name: "Sophie Anderson",
       position: "Product Manager, RetailTech",
       company: "E-commerce Solutions",
-      image: "/placeholder.svg?height=80&width=80&text=Sophie+A",
+      image: "/testimonials_img_7.png?height=80&width=80&text=Sophie+A",
       rating: 5,
       testimonial:
         "The e-commerce platform Mehedi developed revolutionized our online retail presence. The integration of AR product visualization and smart inventory management has significantly boosted our sales. His technical expertise is phenomenal.",
@@ -86,7 +86,7 @@ export function TestimonialsSection() {
       name: "Carlos Martinez",
       position: "Head of Operations, GreenEnergy",
       company: "Renewable Energy",
-      image: "/placeholder.svg?height=80&width=80&text=Carlos+M",
+      image: "/testimonials_img_8.png?height=80&width=80&text=Carlos+M",
       rating: 5,
       testimonial:
         "Mehedi developed a sophisticated monitoring system for our solar farms that dramatically improved our operational efficiency. His innovative approach to IoT integration and data visualization is exactly what we needed.",
@@ -96,7 +96,7 @@ export function TestimonialsSection() {
       name: "Emma Watson",
       position: "CEO, HealthTech Solutions",
       company: "Healthcare Technology",
-      image: "/placeholder.svg?height=80&width=80&text=Emma+W",
+      image: "/testimonials_img_9.png?height=80&width=80&text=Emma+W",
       rating: 5,
       testimonial:
         "The telemedicine platform Mehedi built has been a game-changer for our healthcare network. The secure video consultations and patient management features are robust and user-friendly. His attention to HIPAA compliance was impressive.",

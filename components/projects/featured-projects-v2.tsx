@@ -12,19 +12,19 @@ import { Badge } from "@/components/ui/badge"
 export function FeaturedProjectsV2() {
   const featuredProjects = [
     {
-      title: "Enterprise Learning Management System",
+      title: "MTS - Enterprise Learning Management System",
       description:
-        "A comprehensive LMS platform built for Moonju Tech Solution serving 10,000+ students with real-time collaboration, video streaming, and advanced analytics.",
-      image: "/placeholder.svg?height=400&width=600&text=LMS+Platform",
-      technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "AWS", "Socket.io"],
+        "Enterprise-ready LMS built with Next.js 14, TypeScript, and Tailwind CSS. Features responsive dashboards for students, courses, and analytics with clean, extensible architecture.",
+      image: "/enterpriseLms.png?height=400&width=600&text=LMS+Platform",
+      technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "AWS", "ShadCn Ui"],
       metrics: {
-        users: "10,000+",
+        users: "1,000+",
         performance: "99.9%",
         satisfaction: "4.9/5",
       },
       links: {
-        live: "https://lms.moonjutech.com",
-        github: "https://github.com/mehedi-pathan/enterprise-lms",
+        live: "https://enterpriselms.netlify.app/",
+        github: "https://github.com/mehedi-pathan/Enterprise-LMS/tree/main",
       },
       status: "Live",
       year: "2024",

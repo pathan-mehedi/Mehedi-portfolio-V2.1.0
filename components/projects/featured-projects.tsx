@@ -14,17 +14,17 @@ export function FeaturedProjects() {
     {
       title: "Enterprise Learning Management System",
       description:
-        "A comprehensive LMS platform built for Moonju Tech Solution serving 10,000+ students with real-time collaboration, video streaming, and advanced analytics.",
+        "Enterprise-ready LMS built with Next.js 14, TypeScript, and Tailwind CSS. Features responsive dashboards for students, courses, and analytics with clean, extensible architecture.",
       image: "/placeholder.svg?height=400&width=600&text=LMS+Platform",
-      technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "AWS", "Socket.io"],
+      technologies: ["Next.js 15", "TypeScript", "Node.js", "MongoDB", "AWS", "shadcn", "React Js 18"],
       metrics: {
-        users: "10,000+",
+        users: "1,000+",
         performance: "99.9%",
         satisfaction: "4.9/5",
       },
       links: {
-        live: "https://lms.moonjutech.com",
-        github: "https://github.com/mehedi-pathan/enterprise-lms",
+        live: "https://enterpriselms.netlify.app/",
+        github: "https://github.com/mehedi-pathan/Enterprise-LMS/tree/main",
       },
       status: "Live",
       year: "2024",

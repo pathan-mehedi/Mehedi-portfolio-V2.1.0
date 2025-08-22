@@ -163,7 +163,7 @@ export function ContactForm() {
                       placeholder="Your Message"
                       required
                       rows={5}
-                      className={`bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 ${
+                      className={`resize-none bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 ${
                         state.errors?.message ? "border-red-500 focus:border-red-500" : ""
                       }`}
                     />
